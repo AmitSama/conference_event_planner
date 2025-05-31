@@ -8,6 +8,6 @@ export default configureStore({
   reducer: {
     venue: venueReducer,
     av : avReducer,
-    meals : mealReducer,
+    meals : mealReducer, // reducer name must match the reducer variable name
   },
 });
